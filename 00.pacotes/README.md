@@ -11,7 +11,7 @@ recorrente em ambientes de uso diário.
 
 ---
 
-### Documentação e ajuda
+### 1. Documentação e ajuda
 
 ```bash
 
@@ -22,7 +22,7 @@ sudo apt install man-db
 - fornece páginas de manual (`man`)
 - útil em instalações mínimas do Debian
 
-### Gerenciamento e utilitários básicos
+### 2. Gerenciamento e utilitários básicos
 
 ```bash
 
@@ -33,7 +33,7 @@ sudo apt install curl wget
 - `curl` → requisições HTTP, APIs, downloads
 - `wget` → download de arquivos via terminal
 
-### Editores de texto no terminal
+### 3. Editores de texto no terminal
 
 ```bash
 
@@ -44,7 +44,7 @@ sudo apt install nano vim
 - `nano` → simples, direto, ideal para iniciantes
 - `vim` → mais poderoso, amplamente utilizado em servidores
 
-### Busca de arquivos
+### 4. Busca de arquivos
 
 ```bash
 
@@ -56,7 +56,7 @@ sudo updatedb
 - `locate` → busca rápida no sistema inteiro
 - utiliza um banco de dados local, atualizado via `updatedb` (mais rápido que `find`)
 
-### Navegação em modo texto (TUI)
+### 5. Navegação em modo texto (TUI)
 
 ```bash
 
@@ -66,7 +66,7 @@ sudo apt install mc
 
 - `mc` (Midnight Commander)
 
-### Navegadores web em modo texto
+### 6. Navegadores web em modo texto
 
 ```bash
 
@@ -85,7 +85,7 @@ lynx https://debian.org
 
 ```
 
-### Monitoramento do sistema
+### 7. Monitoramento do sistema
 
 ```bash
 
@@ -96,7 +96,7 @@ sudo apt install htop
 - alternativa moderna ao `top`
 - visualização clara de CPU, memória e processos
 
-### Compactação e arquivamento
+### 8. Compactação e arquivamento
 
 ```bash
 
@@ -107,7 +107,7 @@ sudo apt install zip unzip tar gzip bzip2 xz-utils
 - criação e extração de arquivos compactados
 - essencial para backups e downloads
 
-### Rede e diagnóstico
+### 9. Rede e diagnóstico
 
 ```bash
 
@@ -119,7 +119,7 @@ sudo apt install net-tools iputils-ping dnsutils traceroute
 - `ping`, `traceroute`
 - testes básicos de conectividade e DNS
 
-### Logs e sistema
+### 10. Logs e sistema
 
 ```bash
 
@@ -130,7 +130,7 @@ sudo apt install rsyslog
 - gerenciamento tradicional de logs
 - complementa o `journalctl`
 
-### Utilitários administrativos
+### 11. Utilitários administrativos
 
 ```bash
 
@@ -141,3 +141,33 @@ sudo apt install sudo tree
 - `sudo` → execução de comandos com privilégios
 - `tree` → visualização hierárquica de diretórios
 
+### 12. Informações do Sistema e Estilização
+
+```bash
+
+sudo apt install neofetch
+
+```
+
+- `neofetch` → exibe um resumo visual do sistema (ícone da distro, kernel, hardware).
+- muito utilizado para compartilhar *prints* do ambiente de estudo e verificar rapidamente a versão do S.O.
+
+### Bônus: Efeito Matrix no Terminal
+
+```bash
+
+sudo apt install cmatrix
+
+```
+
+Uso:
+
+```bash
+
+cmatrix
+
+```
+
+- `q` ou `Ctrl+C`: sai do efeito e volta para o terminal.
+- `b`: ativa negrito (**bold**).
+- `C` (shift + c): muda a cor ( !verde, vermelho, azul, etc).
