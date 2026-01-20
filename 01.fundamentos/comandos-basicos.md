@@ -1,0 +1,11 @@
+# Comandos Básicos
+
+## Navegação no sistema de arquivos
+- pwd
+- ls
+- ls -la
+- cd /caminho/diretorio
+
+## Ajuda e documentação
+- man ls
+- ls --help
