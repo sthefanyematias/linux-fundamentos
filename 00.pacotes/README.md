@@ -170,4 +170,4 @@ cmatrix
 
 - `q` ou `Ctrl+C`: sai do efeito e volta para o terminal.
 - `b`: ativa negrito (**bold**).
-- `C` (shift + c): muda a cor ( !verde, vermelho, azul, etc).
+- `C` (shift + c): muda a cor (verde, vermelho, azul, etc).
